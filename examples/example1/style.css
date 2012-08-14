@@ -1,0 +1,20 @@
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    padding-top: 10px;
+}
+
+body *
+{
+    color: #000;
+}
+
+.link
+{
+    color: Red;
+    margin: 10px;
+}
