@@ -11,7 +11,7 @@
 		"suffix": "})(window, undefined);"
 	},
 	"finalize": {
-		"header": "//Infertek.HashConfiguration v0.1.0 | (c) 2012 Tomasz Mikuś | http://www.opensource.org/licenses/mit-license\n"
+		"header": "//Infertek.HashConfiguration v0.1.1 | (c) 2012 Tomasz Mikuś | http://www.opensource.org/licenses/mit-license\n"
 	},
 	"hosts": {
 		"/examples": "./examples",
