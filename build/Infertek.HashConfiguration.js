@@ -71,13 +71,14 @@ window.Infertek.HashConfiguration = function (configuration, autoUpdateHash) {
         
         window.Infertek.HashConfiguration.isUpdatingHash = true;
         location.hash = hashString;
-        window.Infertek.HashConfiguration.isUpdatingHash = false;
     };
     
     var updateConfigurationAccordinglyToHash = function () {
         
-        if (window.Infertek.HashConfiguration.isUpdatingHash)
+        if (window.Infertek.HashConfiguration.isUpdatingHash) {
+            window.Infertek.HashConfiguration.isUpdatingHash = false;
             return;
+        }
         
         var hashConfiguration = loadConfigurationFromHash();
         if (hashConfiguration) {
